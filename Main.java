@@ -137,7 +137,7 @@ class TopStreamingArtists {
   }
   //uses a PrintWriter to write to an output text file
   public void displayList()throws IOException {
-    PrintWriter output = new PrintWriter("US Sorted.txt");
+    PrintWriter output = new PrintWriter("Output.txt");
     Artist current = first;
     while(current != null){
       output.println(current.displayArtist());
